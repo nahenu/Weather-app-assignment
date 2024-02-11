@@ -3,7 +3,6 @@ import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import WeatherChart from "./components/WeatherChart";
 import { fetchWeather, fetchPastWeather } from "./utils/api";
-import StatewiseSummary from "./components/StatewiseSummary";
 const App = () => {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
